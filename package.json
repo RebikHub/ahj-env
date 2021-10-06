@@ -1,24 +1,24 @@
 {
-  "name": "webpack5",
+  "name": "ahj-env",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.common.js",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
-    "test": "jest",
-    "coverage": "jest --coverage",
-    "doc": "jsdoc -c jsdoc.conf.json",
-    "preshow:coverage": "npm run coverage",
-    "show:coverage": "live-server coverage/lcov-report",
-    "preshow:doc": "npm run doc",
-    "show:doc": "live-server doc",
-    "preshow:dist": "npm run build",
-    "show:dist": "live-server dist"
+    "test": "jest --coverage"
   },
-  "author": "coursar",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebikHub/ahj-env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RebikHub/ahj-env/issues"
+  },
+  "homepage": "https://github.com/RebikHub/ahj-env#readme",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
@@ -38,6 +38,5 @@
     "webpack-cli": "^4.3.1",
     "webpack-dev-server": "^3.11.1",
     "webpack-merge": "^5.7.3"
-  },
-  "dependencies": {}
+  }
 }
