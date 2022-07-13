@@ -1,4 +1,4 @@
-# ahj-env
+# Рабочее окружение
 
 [link](https://rebikhub.github.io/ahj-env/)
 
